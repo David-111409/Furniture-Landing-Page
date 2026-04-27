@@ -1,13 +1,11 @@
-import { Bird } from "lucide-react";
-import { X } from "lucide-react";
+import Header from "./components/Header";
 
 function App() {
-    return (
-        <div className="flex gap-4">
-            <Bird />
-            <X />
-        </div>
-    );
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
