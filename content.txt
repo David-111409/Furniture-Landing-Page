@@ -9,7 +9,7 @@ alt = Modern interior design showcase
 Why Choose Us
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus tenetur alias vero excepturi voluptatem!
 
-
+alt = 
 
 
 
