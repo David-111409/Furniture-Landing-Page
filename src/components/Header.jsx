@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { navItems } from "../constant/data";
 import Link from "./Link";
 import { ShoppingCart, User, Menu, X } from "lucide-react";
@@ -8,16 +8,16 @@ const Header = () => {
   const handleClick = () => setOpen((prev) => !prev);
 
   return (
-    <header className="fixed inset-0 w-full z-40">
+    <header className="fixed top-0 left-0 w-full z-40">
       <div className="container flex items-center justify-between py-6">
         {/* Logo */}
-        <a href="#" className="font-rubik font-bold text-3xl">
+        <a href="#" className="font-rubik font-bold text-3xl text-white">
           Stilo
         </a>
 
         {/* Mobile Menu */}
         <nav
-          className={`md:hidden p-6 absolute inset-0 z-30 bg-white ${
+          className={`md:hidden p-6 absolute inset-0 z-50 bg-white ${
             !open && "-translate-x-[290px]"
           } transition-transform duration-300 ease-in-out max-w-[290px] h-screen w-full`}
         >
@@ -40,7 +40,7 @@ const Header = () => {
         </nav>
 
         {/* big screen nav */}
-        <ul className="md:flex md:gap-[52px] hidden">
+        <ul className="md:flex md:gap-[52px] hidden text-white">
           {navItems.map((item) => (
             <li key={item.id}>
               <Link label={item.label} path={item.path} />
@@ -48,7 +48,7 @@ const Header = () => {
           ))}
         </ul>
 
-        <div className="flex items-center gap-[14px] z-10">
+        <div className="flex items-center gap-[14px] z-10 text-white">
           <button className="hover:text-[#F9BF29] transition-colors duration-300">
             <ShoppingCart size={30} />
           </button>
@@ -64,12 +64,12 @@ const Header = () => {
         </div>
 
         {/* overlay */}
-        <div
-          onClick={handleClick}
-          className={`md:hidden pointer-events-none opacity-0 z-20 ${
-            open && "opacity-100 pointer-events-auto"
-          } transition-opacity duration-300 fixed inset-0 bg-neutral-700/50 w-full h-screen`}
-        />
+        {open && (
+          <div
+            onClick={handleClick}
+            className={`z-30 transition-opacity duration-300 fixed inset-0 bg-neutral-700/50`}
+          />
+        )}
       </div>
     </header>
   );

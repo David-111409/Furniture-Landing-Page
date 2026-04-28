@@ -2,8 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+@layer components {
   .container {
     @apply px-4 mx-auto w-full;
+  }
+  .section {
+    @apply pt-[120px] md:pt-[150px];
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold font-rubik text-balance;
+  }
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl;
+  }
+  p {
+    @apply text-gray-500 md:text-[18px];
+  }
+  .primaryButton {
+    @apply bg-secondary py-[11px] px-9 
+    rounded-full border font-medium border-secondary
+     hover:text-secondary hover:bg-transparent 
+     transition-colors duration-300;
+  }
+  .secondaryButton {
+    @apply border text-white px-9 py-[11px]
+     rounded-full duration-300
+     transition-colors hover:bg-secondary
+    hover:border-secondary hover:text-black;
   }
 }

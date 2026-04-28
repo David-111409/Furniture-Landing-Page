@@ -8,10 +8,10 @@ export default {
       },
 
       colors: {
+        secondary: "#F9BF29",
         primary: "#35736E",
-        second: "#F9BF29",
-        light: "#D9D9D9",
-        gray: "#6A6A6A",
+        lightColor: "#D9D9D9",
+        grayColor: "#6A6A6A",
       },
     },
   },

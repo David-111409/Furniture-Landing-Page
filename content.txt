@@ -1,24 +1,15 @@
 
-Stilo
 
-Home
-Services
-Products
-Testimonials
-Blog
 
-Redesign Your Space, Refine Your Look.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero numquam nisi, illum laboriosam ea!
 
-Shop Now
-Explore
+
 
 alt = Modern interior design showcase
 
 Why Choose Us
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta delectus tenetur alias vero excepturi voluptatem!
 
-alt = why choose us illustration
+
 
 
 
