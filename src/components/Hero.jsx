@@ -7,10 +7,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-7xl text-white">
             Redesign Your Space, Refine Your Look.
           </h1>
-          <p
-            onClick={() => console.log("hello")}
-            className="text-white mx-auto md:mx-0 mb-8 mt-3 max-w-[500px]"
-          >
+          <p className="text-white mx-auto md:mx-0 mb-8 mt-3 max-w-[500px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
             libero numquam nisi, illum laboriosam ea!
           </p>
