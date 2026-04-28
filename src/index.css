@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+body {
+  @apply font-open;
 }
 
-body {
-  height: 10000px;
+html {
+  @apply scroll-smooth;
 }
 section {
   scroll-margin-top: 83px;

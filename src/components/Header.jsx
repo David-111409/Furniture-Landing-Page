@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full transition-all duration-300 ${
+      className={`z-30 fixed top-0 left-0 w-full transition-all duration-300 ${
         startScroll
           ? "text-black bg-white shadow-md"
           : "text-white bg-transparent"
@@ -36,7 +36,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         <nav
-          className={`md:hidden p-6 absolute top-0 left-0 z-20 bg-white text-black ${
+          className={`md:hidden p-6 z-20 absolute top-0 left-0 bg-white text-black ${
             !open && "-translate-x-[290px]"
           } transition-transform duration-300 ease-in-out max-w-[290px] h-screen w-full`}
         >
