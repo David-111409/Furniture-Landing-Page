@@ -98,7 +98,7 @@ export const popularProducts = [
   },
 ];
 
-export const testimonialsItem = [
+export const testimonials = [
   {
     id: 1,
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit in tenetur ipsa saepe numquam nam veritatis quia quaerat. Ratione, autem!",

@@ -20,6 +20,10 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "auto";
+  }, [open]);
+
   return (
     <header
       className={`z-30 fixed top-0 left-0 w-full transition-all duration-300 ${

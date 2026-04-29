@@ -6,9 +6,9 @@ const Products = () => {
     <section className="section" id="products">
       <div className="container">
         {/* title wrapper  */}
-        <div className="text-center">
+        <div className="flex flex-col gap-3 items-center">
           <h2>Popular products</h2>
-          <p className="mx-auto mt-3 max-w-[550px]">
+          <p className="max-w-[550px] text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
             libero fugiat cumque.
           </p>
