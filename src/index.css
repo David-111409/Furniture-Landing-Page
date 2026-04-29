@@ -7,7 +7,7 @@ body {
 }
 
 html {
-  @apply scroll-smooth;
+  scroll-behavior: smooth;
 }
 
 section {
