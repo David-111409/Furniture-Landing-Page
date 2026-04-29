@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  height: 10000px;
   @apply font-open;
 }
 
