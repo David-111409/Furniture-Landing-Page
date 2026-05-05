@@ -41,16 +41,16 @@ const Footer = () => {
       {/* bottom bar */}
       <div className="border-t border-gray-800 mt-12 pt-6">
         <div className="container flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Stilo. All rights reserved.</p>
 
           <div className="flex gap-4">
-            <a href="#" className="hover:text-white transition">
+            <a href="#" className="hover:text-primary transition">
               Privacy
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="#" className="hover:text-primary transition">
               Terms
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="#" className="hover:text-primary transition">
               Cookies
             </a>
           </div>
